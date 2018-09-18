@@ -1,0 +1,12 @@
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#quote-box{
+  background: #FFC;
+  padding: 1em 1.6em;
+  border-radius: 1em;
+}
