@@ -9,8 +9,8 @@ class QuoteBox extends Component {
       <div id="quote-box">
         <Quote quote={this.props.quote} />
         <Author author={this.props.author} />
-        <a id="new-quote" onClick={this.props.newQuote}>New Quote</a>
-        <a id="tweet-quote" onClick={this.props.tweetQuote}>Tweet Quote</a>
+        <a id="new-quote" className="btn--blue" onClick={this.props.newQuote}>New Quote</a>
+        <a id="tweet-quote" className="btn--blue" onClick={this.props.tweetQuote}><i className="fa fa-twitter"></i></a>
       </div>
     )
   }

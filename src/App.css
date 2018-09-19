@@ -10,3 +10,10 @@
   padding: 1em 1.6em;
   border-radius: 1em;
 }
+
+.btn--blue {
+  padding: 0.5em 0.9em;
+  background: navy;
+  color: white;
+  border-radius: 1em;
+}

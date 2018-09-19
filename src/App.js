@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 import QuoteBox from './components/QuoteBox';
+
 
 class App extends Component {
   constructor(props) {
