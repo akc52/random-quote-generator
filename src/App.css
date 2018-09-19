@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+.App {
+    width: 60%;
+}
+
 #quote-box{
   background: #FFC;
   padding: 1em 1.6em;

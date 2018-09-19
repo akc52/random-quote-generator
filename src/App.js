@@ -32,18 +32,19 @@ class App extends Component {
 
   tweetQuote(e) {
     e.preventDefault();
-    console.log('Tweet.');
+    let url = 'https://twitter.com/intent/tweet?hashtags=deepquotes&text=' + encodeURIComponent('"' + this.state.quote + '" ~' + this.state.author);
+    window.open(url, 'Share', 'width=550, height=400, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
   }
 
   newQuote(e) {
     e.preventDefault();
-    console.log('New.');
+    this.getQuote();
   }
 
-//on first load, random quote/author
+  //on first load, random quote/author
   componentDidMount() {
-       this.getQuote();
-   }
+     this.getQuote();
+  }
 
   render() {
     return (
